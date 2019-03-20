@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_practica/Institucion.Dart';
 import 'package:http/http.dart' as http;
 
 class Lista extends StatefulWidget
@@ -15,8 +16,9 @@ class Lista extends StatefulWidget
 }
 class ListaState extends State<Lista>
 {
-  List<String> lista = new List<String>();
-  List data;
+  //List<String> lista = new List<String>();
+  List<Institucion> lista;
+  //List data;
  final bottomMenu = Container(
 
    height: 55.0,
@@ -69,9 +71,16 @@ class ListaState extends State<Lista>
                   child: Row(
                     children: <Widget>[
                       CircleAvatar(
-                        backgroundImage: new NetworkImage('http://i.pravatar.cc/300'),
+                        backgroundImage: new NetworkImage(lista[index].logoInstitucion),
+                        radius: 50.0,
                       ),
-                      Text('Nombre de la pelicula ${index}'),
+                      Column(
+                        children: <Widget>[
+                          Text(lista[index].nomInstitucion),
+                          Text(lista[index].nomCortoInstitucion),
+                        ],
+                      ),
+                      //Text('Nombre de la pelicula ${index}'),
                     ],
                   ),
                 ),
@@ -91,20 +100,29 @@ class ListaState extends State<Lista>
      Uri.encodeFull("http://ws.itcelaya.edu.mx:8080/intertecs/apirest/institucion/listado"),
      headers: {"authorization" : basicAuth}
    );
+   if(response.statusCode==200)
+   {
+    var data = json.decode(response.body);
+    var rest = data["institucion"] as List;
+    lista = rest.map<Institucion>((json)=>Institucion.fromJSON(json)).toList();
   }
+   setState(() {
+
+
+   });
+
+  }
+
+
+
+
 
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    setState(() {
       getData();
-      for(int i=0; i<10; i++)
-      {
-        lista.add("Titulo de la pelicula ${i}");
-      }
-    });
   }
 
 
