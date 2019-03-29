@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practica/Conversor.Dart';
 import 'package:flutter_practica/Lista.Dart';
+import 'package:flutter_practica/Login.Dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class DashBoard extends StatelessWidget{
+
 
   @override
   Widget build(BuildContext context) {
@@ -80,10 +83,39 @@ class MenuLateralState extends State<MenuLateral>{
                 //Navigator.pop(context);
               },
             ),
+            ListTile(
+              leading: Icon(Icons.exit_to_app),
+              title: Text("Cerrar session"),
+              trailing: Icon(Icons.account_circle),
+              onTap: (){
+                salirSession();
+                //Navigator.pop(context);
+              },
+            ),
           ],
         ),
       ),
     );
+  }
+
+  void salirSession() async {
+    SharedPreferences sharedPreferences;
+
+    sharedPreferences = await SharedPreferences.getInstance();
+    setState(() {
+
+      sharedPreferences.setString("username", "");
+      sharedPreferences.setString("password", "");
+      sharedPreferences.commit();
+
+    });
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (BuildContext context)=>new Login())
+
+    );
+
   }
 }
 

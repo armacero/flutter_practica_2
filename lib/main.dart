@@ -26,8 +26,8 @@ class SplashScreenState extends State<SplashScreenIni>
     // TODO: implement build
     return new SplashScreen(
       seconds: 10,
-      //navigateAfterSeconds: Login(),
-      navigateAfterSeconds: DashBoard(),
+      navigateAfterSeconds: Login(),
+      //navigateAfterSeconds: DashBoard(),
       title: Text("Mi Aplicacion :)",
        style: TextStyle(
         fontWeight: FontWeight.bold,

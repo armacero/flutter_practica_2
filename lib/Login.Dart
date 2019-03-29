@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter_practica/DashBoard.Dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:shared_preferences/shared_preferences.dart';
 
 class Login extends StatefulWidget
 {
@@ -17,21 +18,71 @@ class LoginState extends State<Login>
 {
   final myUser = TextEditingController();
   final myPass = TextEditingController();
+  bool checkValue=true;
+  SharedPreferences sharedPreferences;
 
+
+@override
+  void initState() {
+    getCredential();
+    super.initState();
+  }
+  getCredential() async {
+    sharedPreferences = await SharedPreferences.getInstance();
+    String user="";
+    String pass="";
+    setState(() {
+
+      user = sharedPreferences.getString("username");
+      pass = sharedPreferences.getString("password");
+
+
+    });
+    http.Response response = await http.get(
+        Uri.encodeFull("http://192.168.100.58:5000/ws/login/${user}/${pass}"),
+        headers: { "Accept": "application/json"}
+    );
+
+
+
+    print(response.body);
+    if(response.statusCode==200)
+    {
+      Navigator.push(
+          context,
+          MaterialPageRoute(
+              builder: (BuildContext context)=>new DashBoard())
+
+      );
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
-
     Future<String> getData() async {
       String user = myUser.text;
       String pass = myPass.text;
+
+        sharedPreferences = await SharedPreferences.getInstance();
+        setState(() {
+
+          sharedPreferences.setString("username", user);
+          sharedPreferences.setString("password", pass);
+          sharedPreferences.commit();
+
+        });
+
+
+
       http.Response response = await http.get(
-          Uri.encodeFull("http://192.168.1.79:5000/ws/sii/login/${user}/${pass}"),
+          Uri.encodeFull("http://192.168.100.58:5000/ws/login/${user}/${pass}"),
           headers: { "Accept": "application/json"}
       );
 
+
+
       print(response.body);
-      if(response.body.length >10)
+      if(response.statusCode==200)
         {
           Navigator.push(
               context,
