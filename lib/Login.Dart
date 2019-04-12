@@ -18,65 +18,42 @@ class LoginState extends State<Login>
 {
   final myUser = TextEditingController();
   final myPass = TextEditingController();
-  bool checkValue=true;
+  String user="";
+  String pass="";
+  String mensaje="Recuedame";
+  bool _isChecked=false;
   SharedPreferences sharedPreferences;
 
 
-@override
-  void initState() {
-    getCredential();
-    super.initState();
-  }
-  getCredential() async {
-    sharedPreferences = await SharedPreferences.getInstance();
-    String user="";
-    String pass="";
-    setState(() {
 
-      user = sharedPreferences.getString("username");
-      pass = sharedPreferences.getString("password");
-
-
-    });
-    http.Response response = await http.get(
-        Uri.encodeFull("http://192.168.100.58:5000/ws/login/${user}/${pass}"),
-        headers: { "Accept": "application/json"}
-    );
-
-
-
-    print(response.body);
-    if(response.statusCode==200)
-    {
-      Navigator.push(
-          context,
-          MaterialPageRoute(
-              builder: (BuildContext context)=>new DashBoard())
-
-      );
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
+
+
+
+
+
     Future<String> getData() async {
-      String user = myUser.text;
-      String pass = myPass.text;
+       user = myUser.text;
+       pass = myPass.text;
+        if(_isChecked)
+          {
+            sharedPreferences = await SharedPreferences.getInstance();
+            setState(() {
+              sharedPreferences.setString("username", user);
+              sharedPreferences.setString("password", pass);
+              sharedPreferences.commit();
+            });
 
-        sharedPreferences = await SharedPreferences.getInstance();
-        setState(() {
+          }
 
-          sharedPreferences.setString("username", user);
-          sharedPreferences.setString("password", pass);
-          sharedPreferences.commit();
-
-        });
-
-
+//Uri.https(, unencodedPath)
 
       http.Response response = await http.get(
-          Uri.encodeFull("http://192.168.100.58:5000/ws/login/${user}/${pass}"),
+          Uri.encodeFull("http://192.168.1.2:5000/ws/login/${user}/${pass}"),
           headers: { "Accept": "application/json"}
+
       );
 
 
@@ -145,6 +122,8 @@ class LoginState extends State<Login>
     );
 
 
+
+
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
@@ -158,10 +137,40 @@ class LoginState extends State<Login>
             SizedBox(height: 30.0),
             txtPwd,
             SizedBox(height: 30.0),
-            loginButton
+            loginButton,
+            CheckboxListTile(
+              title: new Text("Guardar Session"),
+              value: _isChecked,
+              activeColor: Colors.cyan,
+              secondary: const Icon(Icons.save),
+              onChanged: (bool value){guardar(value);}
+
+            )
+
+            /*new Container(
+              padding: new EdgeInsets.all(32.0),
+             child: new Column(
+                 children: <Widget>[
+                 login_switch,
+                 Text("Recuerdame")
+                 ],
+                  ),),
+
+
+*/
+
           ],
         ),
       ),
+
     );
+
+  }
+  void guardar(bool value)
+  {
+    setState(() {
+      _isChecked=value;
+    });
+
   }
 }
