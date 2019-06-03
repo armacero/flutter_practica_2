@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_practica/DashBoard.Dart';
 import 'package:flutter_practica/Login.Dart';
+import 'package:flutter_practica/categorias.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
@@ -35,12 +36,15 @@ class SplashScreenState extends State<SplashScreenIni>
   void initState() {
     Verificar();
     super.initState();
+
   }
 
   Verificar() async
   {
     sharedPreferences = await SharedPreferences.getInstance();
-
+    var ip='http://192.168.100.58';
+    sharedPreferences.setString("ip",ip);
+    sharedPreferences.commit();
     if(sharedPreferences.getString("username")=="")
       {
         Navigator.push(
@@ -60,22 +64,34 @@ class SplashScreenState extends State<SplashScreenIni>
   getCredential() async {
     sharedPreferences = await SharedPreferences.getInstance();
     final user = sharedPreferences.getString("username");
+    sharedPreferences.setString("usuario",user);
     final pass = sharedPreferences.getString("password");
+    sharedPreferences.commit();
     http.Response response = await http.get(
-        Uri.encodeFull("http://192.168.1.2:5000/ws/login/${user}/${pass}"),
+        Uri.encodeFull(sharedPreferences.getString("ip")+":5000/ws/login/${user}/${pass}"),
         headers: { "Accept": "application/json"}
     );
 
     print(response.body);
-    if(response.statusCode==200)
+   if(response.statusCode==200)
     {
      // DashBoard();
+    if(sharedPreferences.getString("categorias")=="") {
       Navigator.push(
-        context,
-        MaterialPageRoute(
-            builder: (BuildContext context)=>new DashBoard())
+          context,
+          MaterialPageRoute(
+              builder: (BuildContext context) => new Categoria())
 
-    );
+      );
+    }else
+    {
+      Navigator.push(
+          context,
+          MaterialPageRoute(
+              builder: (BuildContext context) => new DashBoard())
+
+      );
+    }
     }
   }
 

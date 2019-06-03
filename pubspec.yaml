@@ -26,6 +26,15 @@ dependencies:
   splashscreen: ^1.2.0
   http: ^0.12.0+1
   shared_preferences: ^0.4.2
+  circle_wheel_scroll: ^0.0.1+1
+  sticky_headers:
+  firebase_core: ^0.4.0+1
+  firebase_messaging: ^5.0.1+1
+  flutter_local_notifications: ^0.7.1+1
+  firebase_database: ^3.0.0
+  sqflite: ^1.0.0
+  path_provider: ^0.4.1
+  url_launcher:
 
 
 
@@ -52,6 +61,7 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
      - images/login.png
+     - images/characters/
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
 

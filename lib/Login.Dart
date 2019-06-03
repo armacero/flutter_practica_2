@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'dart:async';
 import 'package:flutter_practica/DashBoard.Dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_practica/categorias.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -43,6 +44,7 @@ class LoginState extends State<Login>
             setState(() {
               sharedPreferences.setString("username", user);
               sharedPreferences.setString("password", pass);
+              sharedPreferences.setString("usuario",user);
               sharedPreferences.commit();
             });
 
@@ -51,22 +53,32 @@ class LoginState extends State<Login>
 //Uri.https(, unencodedPath)
 
       http.Response response = await http.get(
-          Uri.encodeFull("http://192.168.1.2:5000/ws/login/${user}/${pass}"),
+          Uri.encodeFull(sharedPreferences.getString("ip")+":5000/ws/login/${user}/${pass}"),
           headers: { "Accept": "application/json"}
 
       );
 
 
 
-      print(response.body);
+      //print(response.body);
       if(response.statusCode==200)
         {
-          Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (BuildContext context)=>new DashBoard())
+          if(sharedPreferences.getString("categorias")=="") {
+            Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (BuildContext context) => new Categoria())
 
-          );
+            );
+          }else
+            {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (BuildContext context) => new DashBoard())
+
+              );
+            }
         }
       //List data = jsonDecode(response.body);
       //print(data);
@@ -146,18 +158,6 @@ class LoginState extends State<Login>
               onChanged: (bool value){guardar(value);}
 
             )
-
-            /*new Container(
-              padding: new EdgeInsets.all(32.0),
-             child: new Column(
-                 children: <Widget>[
-                 login_switch,
-                 Text("Recuerdame")
-                 ],
-                  ),),
-
-
-*/
 
           ],
         ),

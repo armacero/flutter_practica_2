@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "729793607708",
+    "firebase_url": "https://practica-e63e5.firebaseio.com",
+    "project_id": "practica-e63e5",
+    "storage_bucket": "practica-e63e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729793607708:android:6c9c6b0334032125",
+        "android_client_info": {
+          "package_name": "com.patmitc.flutter_practica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729793607708-t9cmphklm12jelk0smk1nr6kmnpv7o78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQN_eHdtPNiC-La06cE2xcrp6tjGJmqKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729793607708-t9cmphklm12jelk0smk1nr6kmnpv7o78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
