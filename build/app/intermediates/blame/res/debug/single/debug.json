@@ -16,6 +16,10 @@
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/2b5912e362cdc4ad7b7c8491f8d580f7/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
+        "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable_default_scroll_handle_right.xml.flat",
+        "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-android-pdf-viewer-3.1.0-beta.1.aar/03fe7aa2c589e6437537abed5d42e2dd/res/drawable/default_scroll_handle_right.xml"
+    },
+    {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat",
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/2b5912e362cdc4ad7b7c8491f8d580f7/res/drawable/common_google_signin_btn_text_dark.xml"
     },
@@ -44,12 +48,12 @@
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/2b5912e362cdc4ad7b7c8491f8d580f7/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
-        "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/280e380b34dcd26c827f3b29e893d44f/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/2b5912e362cdc4ad7b7c8491f8d580f7/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat",
+        "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/280e380b34dcd26c827f3b29e893d44f/res/layout-v16/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
@@ -120,12 +124,20 @@
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/2b5912e362cdc4ad7b7c8491f8d580f7/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable_default_scroll_handle_top.xml.flat",
+        "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-android-pdf-viewer-3.1.0-beta.1.aar/03fe7aa2c589e6437537abed5d42e2dd/res/drawable/default_scroll_handle_top.xml"
+    },
+    {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/280e380b34dcd26c827f3b29e893d44f/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat",
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/280e380b34dcd26c827f3b29e893d44f/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable_default_scroll_handle_bottom.xml.flat",
+        "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-android-pdf-viewer-3.1.0-beta.1.aar/03fe7aa2c589e6437537abed5d42e2dd/res/drawable/default_scroll_handle_bottom.xml"
     },
     {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
@@ -230,6 +242,10 @@
     {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/2b5912e362cdc4ad7b7c8491f8d580f7/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable_default_scroll_handle_left.xml.flat",
+        "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-android-pdf-viewer-3.1.0-beta.1.aar/03fe7aa2c589e6437537abed5d42e2dd/res/drawable/default_scroll_handle_left.xml"
     },
     {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat",

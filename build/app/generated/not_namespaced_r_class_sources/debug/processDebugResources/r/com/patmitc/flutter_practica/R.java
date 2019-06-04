@@ -301,10 +301,49 @@ public final class R {
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int sb_handlerColor=0x7f010018;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int sb_horizontal=0x7f010019;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int sb_indicatorColor=0x7f01001a;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int sb_indicatorTextColor=0x7f01001b;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int scopeUris=0x7f010018;
+    public static final int scopeUris=0x7f01001c;
     /**
      * Drawable to display behind the status bar when the view is set to draw behind it.
      * <p>May be a reference to another resource, in the form
@@ -315,13 +354,13 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f010019;
+    public static final int statusBarBackground=0x7f01001d;
     /**
      * The index of the font in the tcc font file. If the font file referenced is not in the
      * tcc format, this attribute needs not be specified.
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int ttcIndex=0x7f01001a;
+    public static final int ttcIndex=0x7f01001e;
   }
   public static final class color {
     public static final int common_google_signin_btn_text_dark=0x7f020000;
@@ -391,21 +430,25 @@ public final class R {
     public static final int common_google_signin_btn_text_light_focused=0x7f040010;
     public static final int common_google_signin_btn_text_light_normal=0x7f040011;
     public static final int common_google_signin_btn_text_light_normal_background=0x7f040012;
-    public static final int googleg_disabled_color_18=0x7f040013;
-    public static final int googleg_standard_color_18=0x7f040014;
-    public static final int launch_background=0x7f040015;
-    public static final int notification_action_background=0x7f040016;
-    public static final int notification_bg=0x7f040017;
-    public static final int notification_bg_low=0x7f040018;
-    public static final int notification_bg_low_normal=0x7f040019;
-    public static final int notification_bg_low_pressed=0x7f04001a;
-    public static final int notification_bg_normal=0x7f04001b;
-    public static final int notification_bg_normal_pressed=0x7f04001c;
-    public static final int notification_icon_background=0x7f04001d;
-    public static final int notification_template_icon_bg=0x7f04001e;
-    public static final int notification_template_icon_low_bg=0x7f04001f;
-    public static final int notification_tile_bg=0x7f040020;
-    public static final int notify_panel_notification_icon_bg=0x7f040021;
+    public static final int default_scroll_handle_bottom=0x7f040013;
+    public static final int default_scroll_handle_left=0x7f040014;
+    public static final int default_scroll_handle_right=0x7f040015;
+    public static final int default_scroll_handle_top=0x7f040016;
+    public static final int googleg_disabled_color_18=0x7f040017;
+    public static final int googleg_standard_color_18=0x7f040018;
+    public static final int launch_background=0x7f040019;
+    public static final int notification_action_background=0x7f04001a;
+    public static final int notification_bg=0x7f04001b;
+    public static final int notification_bg_low=0x7f04001c;
+    public static final int notification_bg_low_normal=0x7f04001d;
+    public static final int notification_bg_low_pressed=0x7f04001e;
+    public static final int notification_bg_normal=0x7f04001f;
+    public static final int notification_bg_normal_pressed=0x7f040020;
+    public static final int notification_icon_background=0x7f040021;
+    public static final int notification_template_icon_bg=0x7f040022;
+    public static final int notification_template_icon_low_bg=0x7f040023;
+    public static final int notification_tile_bg=0x7f040024;
+    public static final int notify_panel_notification_icon_bg=0x7f040025;
   }
   public static final class id {
     public static final int action0=0x7f050000;
@@ -602,7 +645,7 @@ public final class R {
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-      0x7f010011, 0x7f010019
+      0x7f010011, 0x7f01001d
     };
     /**
      * <p>
@@ -978,7 +1021,7 @@ public final class R {
     public static final int[] FontFamilyFont={
       0x01010532, 0x01010533, 0x0101053f, 0x0101056f, 
       0x01010570, 0x7f010005, 0x7f01000c, 0x7f01000d, 
-      0x7f01000e, 0x7f01001a
+      0x7f01000e, 0x7f01001e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -1410,6 +1453,85 @@ public final class R {
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
+     * Attributes that can be used with a ScrollBar.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ScrollBar_sb_handlerColor com.patmitc.flutter_practica:sb_handlerColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollBar_sb_horizontal com.patmitc.flutter_practica:sb_horizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollBar_sb_indicatorColor com.patmitc.flutter_practica:sb_indicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollBar_sb_indicatorTextColor com.patmitc.flutter_practica:sb_indicatorTextColor}</code></td><td></td></tr>
+     * </table>
+     * @see #ScrollBar_sb_handlerColor
+     * @see #ScrollBar_sb_horizontal
+     * @see #ScrollBar_sb_indicatorColor
+     * @see #ScrollBar_sb_indicatorTextColor
+     */
+    public static final int[] ScrollBar={
+      0x7f010018, 0x7f010019, 0x7f01001a, 0x7f01001b
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.patmitc.flutter_practica.R.attr#sb_handlerColor}
+     * attribute's value can be found in the {@link #ScrollBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.patmitc.flutter_practica:sb_handlerColor
+     */
+    public static final int ScrollBar_sb_handlerColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.patmitc.flutter_practica.R.attr#sb_horizontal}
+     * attribute's value can be found in the {@link #ScrollBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.patmitc.flutter_practica:sb_horizontal
+     */
+    public static final int ScrollBar_sb_horizontal=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.patmitc.flutter_practica.R.attr#sb_indicatorColor}
+     * attribute's value can be found in the {@link #ScrollBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.patmitc.flutter_practica:sb_indicatorColor
+     */
+    public static final int ScrollBar_sb_indicatorColor=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.patmitc.flutter_practica.R.attr#sb_indicatorTextColor}
+     * attribute's value can be found in the {@link #ScrollBar} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.patmitc.flutter_practica:sb_indicatorTextColor
+     */
+    public static final int ScrollBar_sb_indicatorTextColor=3;
+    /**
      * Attributes that can be used with a SignInButton.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -1425,7 +1547,7 @@ public final class R {
      * @see #SignInButton_scopeUris
      */
     public static final int[] SignInButton={
-      0x7f010001, 0x7f010003, 0x7f010018
+      0x7f010001, 0x7f010003, 0x7f01001c
     };
     /**
      * <p>This symbol is the offset where the {@link com.patmitc.flutter_practica.R.attr#buttonSize}

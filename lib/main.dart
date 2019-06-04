@@ -42,7 +42,7 @@ class SplashScreenState extends State<SplashScreenIni>
   Verificar() async
   {
     sharedPreferences = await SharedPreferences.getInstance();
-    var ip='http://192.168.100.58';
+    var ip='http://192.168.43.14';
     sharedPreferences.setString("ip",ip);
     sharedPreferences.commit();
     if(sharedPreferences.getString("username")=="")

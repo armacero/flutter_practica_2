@@ -1,4 +1,4 @@
-#Mon Jun 03 22:54:27 CDT 2019
+#Tue Jun 04 13:22:22 CDT 2019
 base.0=/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
