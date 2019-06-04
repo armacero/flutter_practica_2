@@ -76,6 +76,10 @@
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/2b5912e362cdc4ad7b7c8491f8d580f7/res/color/common_google_signin_btn_text_light.xml"
     },
     {
+        "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/xml_flutter_image_picker_file_paths.xml.flat",
+        "source": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/image_picker/intermediates/packaged_res/debug/xml/flutter_image_picker_file_paths.xml"
+    },
+    {
         "merged": "/home/armacero/AndroidStudioProjects/flutter_practica_2/build/app/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
         "source": "/home/armacero/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/2b5912e362cdc4ad7b7c8491f8d580f7/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
