@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_practica/DashBoard.Dart';
 import 'package:flutter_practica/Login.Dart';
-import 'package:flutter_practica/categorias.dart';
+import 'package:flutter_practica/todoFirabase/categorias.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
@@ -42,7 +42,7 @@ class SplashScreenState extends State<SplashScreenIni>
   Verificar() async
   {
     sharedPreferences = await SharedPreferences.getInstance();
-    var ip='http://192.168.43.14';
+    var ip='http://192.168.100.58';
     sharedPreferences.setString("ip",ip);
     sharedPreferences.commit();
     if(sharedPreferences.getString("username")=="")
@@ -76,7 +76,8 @@ class SplashScreenState extends State<SplashScreenIni>
    if(response.statusCode==200)
     {
      // DashBoard();
-    if(sharedPreferences.getString("categorias")=="") {
+    if(sharedPreferences.getString("categorias")!="") {
+      print(sharedPreferences.getString("categorias"));
       Navigator.push(
           context,
           MaterialPageRoute(

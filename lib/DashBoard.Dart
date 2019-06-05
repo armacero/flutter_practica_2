@@ -2,20 +2,20 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_practica/Conversor.Dart';
-import 'package:flutter_practica/Lista.Dart';
+import 'package:flutter_practica/practicaSQFLITE/Lista.Dart';
 import 'package:flutter_practica/Login.Dart';
-import 'package:flutter_practica/boletos.dart';
-import 'package:flutter_practica/categorias.dart';
+import 'package:flutter_practica/boletos_compra/boletos.dart';
+import 'package:flutter_practica/todoFirabase/categorias.dart';
 import 'package:flutter_practica/detail_page.dart';
-import 'package:flutter_practica/homescreen.dart';
+import 'package:flutter_practica/practicaSQFLITE/homescreen.dart';
 import 'package:flutter_practica/intenciones/homeIntenciones.dart';
-import 'package:flutter_practica/list.dart';
-import 'package:flutter_practica/listPeli.dart';
+import 'package:flutter_practica/practicaSQFLITE/list.dart';
+import 'package:flutter_practica/boletos_compra/listPeli.dart';
 import 'package:flutter_practica/list_page.dart';
 import 'package:flutter_practica/main.dart';
-import 'package:flutter_practica/pelicula.dart';
+import 'package:flutter_practica/modelos/pelicula.dart';
 import 'package:flutter_practica/peliculas.dart';
-import 'package:flutter_practica/practicasql.dart';
+import 'package:flutter_practica/practicaSQFLITE/practicasql.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:http/http.dart' as http;

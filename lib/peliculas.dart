@@ -3,10 +3,10 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_practica/DashBoard.Dart';
-import 'package:flutter_practica/Genero.dart';
-import 'package:flutter_practica/funciones.dart';
+import 'package:flutter_practica/modelos/Genero.dart';
+import 'package:flutter_practica/boletos_compra/funciones.dart';
 import 'package:flutter_practica/main.dart';
-import 'package:flutter_practica/pelicula.dart';
+import 'package:flutter_practica/modelos/pelicula.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 import 'package:sticky_headers/sticky_headers/widget.dart';

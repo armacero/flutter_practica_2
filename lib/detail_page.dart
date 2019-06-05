@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practica/character.dart';
-import 'package:flutter_practica/pelicula.dart';
+import 'package:flutter_practica/modelos/pelicula.dart';
 
 
 class DetailPage extends StatefulWidget {
