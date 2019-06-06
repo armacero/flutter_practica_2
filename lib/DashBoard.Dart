@@ -180,7 +180,7 @@ class MenuLateralState extends State<MenuLateral>{
      // body: Text("CINE"),
 
       body: ListView.builder(
-          itemCount: lista.length,
+          itemCount: lista==null?0:lista.length,
           itemBuilder: (BuildContext context, int index) {
             return Padding(
               padding: const EdgeInsets.all(15.0),

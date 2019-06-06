@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_practica/DashBoard.Dart';
 import 'package:flutter_practica/Login.Dart';
+import 'package:flutter_practica/intenciones/homeIntenciones.dart';
 import 'package:flutter_practica/todoFirabase/categorias.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:http/http.dart' as http;
@@ -35,14 +36,16 @@ class SplashScreenState extends State<SplashScreenIni>
   @override
   void initState() {
     Verificar();
+
     super.initState();
 
   }
 
   Verificar() async
   {
+    //192.168.43.14      192.168.100.58
     sharedPreferences = await SharedPreferences.getInstance();
-    var ip='http://192.168.100.58';
+    var ip='http://192.168.43.14';
     sharedPreferences.setString("ip",ip);
     sharedPreferences.commit();
     if(sharedPreferences.getString("username")=="")
@@ -76,7 +79,7 @@ class SplashScreenState extends State<SplashScreenIni>
    if(response.statusCode==200)
     {
      // DashBoard();
-    if(sharedPreferences.getString("categorias")!="") {
+    if(sharedPreferences.getString("categorias")=="") {
       print(sharedPreferences.getString("categorias"));
       Navigator.push(
           context,
@@ -105,7 +108,7 @@ class SplashScreenState extends State<SplashScreenIni>
     return new SplashScreen(
       seconds: 10,
       //navigateAfterSeconds: Verificar(),
-      //navigateAfterSeconds: DashBoard(),
+      navigateAfterSeconds: DashBoard(),
       title: Text("Mi Aplicacion :)",
        style: TextStyle(
         fontWeight: FontWeight.bold,

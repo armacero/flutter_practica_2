@@ -10,57 +10,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app.dill.track.dill.incremental.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/app.dill.track.dill.incremental.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/flutter-x86.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/flutter-x86.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/IbgXOedLfvXPbpPB9AvtlZJuDhg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/IbgXOedLfvXPbpPB9AvtlZJuDhg=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/IbgXOedLfvXPbpPB9AvtlZJuDhg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJniLibs/zip-cache/IbgXOedLfvXPbpPB9AvtlZJuDhg=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/DashBoard.Dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/DashBoard.Dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Funcion.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelos/Funcion.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Genero.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelos/Genero.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Lista.Dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/practicaSQFLITE/Lista.Dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Login.Dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Login.Dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/add_user_dialog.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/practicaSQFLITE/add_user_dialog.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/bodi.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todoFirabase/bodi.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/boletos.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/boletos_compra/boletos.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/categorias.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todoFirabase/categorias.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/compra.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/boletos_compra/compra.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/database_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/practicaSQFLITE/database_helper.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/detail_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/detail_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/funciones.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/boletos_compra/funciones.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/home_presenter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/practicaSQFLITE/home_presenter.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/homescreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/practicaSQFLITE/homescreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/practicaSQFLITE/list.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/listPeli.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/boletos_compra/listPeli.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/list_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/list_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/message.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todoFirabase/message.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/notificacion.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todoFirabase/notificacion.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/pelicula.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelos/pelicula.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/peliculas.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/peliculas.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/practicasql.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/practicaSQFLITE/practicasql.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ticket.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/boletos_compra/ticket.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelos/user.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/usuario.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/modelos/usuario.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/todoFirabase/categorias.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todoFirabase/categorias.dart" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -75,10 +40,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/DashBoard.Dart">
+        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6534">
-              <caret line="317" column="14" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
+            <state relative-caret-position="330">
+              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/todoFirabase/categorias.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3146">
+              <caret line="154" column="39" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="39" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -87,24 +61,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+        <entry file="file://$PROJECT_DIR$/lib/DashBoard.Dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="69" column="13" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="13" />
+            <state relative-caret-position="3564">
+              <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/todoFirabase/bodi.dart">
+        <entry file="file://$PROJECT_DIR$/lib/intenciones/homeIntenciones.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pubspec.lock">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/todoFirabase/categorias.dart">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/intenciones/tabController.dart">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/boletos_compra/funciones.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="262" column="37" lean-forward="true" selection-start-line="262" selection-start-column="37" selection-end-line="262" selection-end-column="37" />
+            <state relative-caret-position="4268">
+              <caret line="204" column="4" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="40" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -115,7 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/todoFirabase/notificacion.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1782">
+              <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -126,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/todoFirabase/message.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
+            <state relative-caret-position="462">
               <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
               <folding>
                 <element signature="e#0#60#0" expanded="true" />
@@ -135,11 +130,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+            <state relative-caret-position="300">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -158,9 +153,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Genero</find>
-      <find>genero</find>
-      <find>lista</find>
       <find>imagen</find>
       <find>width</find>
       <find>image</find>
@@ -188,6 +180,9 @@
       <find>prin</find>
       <find>topico</find>
       <find>init</find>
+      <find>Widget</find>
+      <find>sharedPreferences</find>
+      <find>SharedPreferences sharedPreferences;</find>
     </findStrings>
     <replaceStrings>
       <replace>Practica</replace>
@@ -228,15 +223,16 @@
         <option value="$PROJECT_DIR$/lib/Login.Dart" />
         <option value="$PROJECT_DIR$/lib/peliculas.dart" />
         <option value="$PROJECT_DIR$/lib/funciones.dart" />
-        <option value="$PROJECT_DIR$/lib/DashBoard.Dart" />
         <option value="$PROJECT_DIR$/lib/compra.dart" />
         <option value="$PROJECT_DIR$/lib/categorias.dart" />
         <option value="$PROJECT_DIR$/lib/boletos.dart" />
         <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/intenciones/homeIntenciones.dart" />
         <option value="$PROJECT_DIR$/android/app/build.gradle" />
-        <option value="$PROJECT_DIR$/lib/main.dart" />
+        <option value="$PROJECT_DIR$/lib/DashBoard.Dart" />
+        <option value="$PROJECT_DIR$/lib/todoFirabase/notificacion.dart" />
         <option value="$PROJECT_DIR$/lib/todoFirabase/categorias.dart" />
+        <option value="$PROJECT_DIR$/lib/main.dart" />
       </list>
     </option>
   </component>
@@ -252,7 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -284,11 +279,24 @@
               <item name="flutter_practica_2" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="flutter_practica_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_practica_2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="intenciones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flutter_practica_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flutter_practica_2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="todoFirabase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559681510949</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Falta Firebase, no queda alv">
+      <created>1559740629884</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559740629884</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -389,7 +404,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Resources Explorer" order="0" weight="0.3296643" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13979086" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13979086" />
       <window_info id="Captures" order="2" side_tool="true" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -398,7 +413,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Dart Analysis" order="0" weight="0.32824427" />
-      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49972484" visible="true" weight="0.21592148" />
+      <window_info anchor="bottom" id="Run" order="1" sideWeight="0.49972484" weight="0.37949836" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Logcat" order="4" />
@@ -423,7 +438,8 @@
     <MESSAGE value="Shared Preferences terminado" />
     <MESSAGE value="primer intencion terminada" />
     <MESSAGE value="Faltan 2 intenciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Faltan 2 intenciones" />
+    <MESSAGE value="Falta Firebase, no queda alv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Falta Firebase, no queda alv" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,9 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -541,9 +554,6 @@
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/intenciones/tabController.dart">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/modelos/usuario.dart">
       <provider selected="true" editor-type-id="text-editor">
@@ -626,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/boletos_compra/boletos.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="210" column="47" selection-start-line="210" selection-start-column="47" selection-end-line="210" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/practicaSQFLITE/homescreen.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1738">
@@ -646,50 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/intenciones/homeIntenciones.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8184">
-          <caret line="382" selection-start-line="382" selection-end-line="382" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/boletos_compra/compra.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
-          <caret line="96" column="60" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/boletos_compra/funciones.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4378">
-          <caret line="209" column="47" selection-start-line="209" selection-start-column="47" selection-end-line="209" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/peliculas.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2222">
           <caret line="112" column="56" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/boletos_compra/listPeli.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5302">
-          <caret line="251" column="45" selection-start-line="251" selection-start-column="45" selection-end-line="251" selection-end-column="45" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -717,10 +677,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/DashBoard.Dart">
+    <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/splashscreen-1.2.0/lib/splashscreen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6534">
-          <caret line="317" column="14" selection-start-line="317" selection-start-column="14" selection-end-line="317" selection-end-column="14" />
+        <state relative-caret-position="148">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todoFirabase/bodi.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/boletos_compra/listPeli.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5302">
+          <caret line="251" column="45" selection-start-line="251" selection-start-column="45" selection-end-line="251" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/boletos_compra/compra.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="96" column="60" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/boletos_compra/boletos.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4378">
+          <caret line="210" column="47" selection-start-line="210" selection-start-column="47" selection-end-line="210" selection-end-column="47" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -729,36 +719,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pubspec.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="13" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todoFirabase/bodi.dart">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todoFirabase/notificacion.dart">
+    <entry file="file://$PROJECT_DIR$/lib/todoFirabase/categorias.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+        <state relative-caret-position="3146">
+          <caret line="154" column="39" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="39" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/DashBoard.Dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3564">
+          <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/intenciones/homeIntenciones.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/intenciones/tabController.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/boletos_compra/funciones.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4268">
+          <caret line="204" column="4" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/todoFirabase/notificacion.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/todoFirabase/message.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
+        <state relative-caret-position="462">
           <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding>
             <element signature="e#0#60#0" expanded="true" />
@@ -766,17 +790,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/flutter/.pub-cache/hosted/pub.dartlang.org/splashscreen-1.2.0/lib/splashscreen.dart">
+    <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/todoFirabase/categorias.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="262" column="37" lean-forward="true" selection-start-line="262" selection-start-column="37" selection-end-line="262" selection-end-column="37" />
+        <state relative-caret-position="300">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>

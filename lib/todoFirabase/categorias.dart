@@ -9,6 +9,7 @@ import 'package:http/http.dart' as http;
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'package:flutter_practica/main.dart';
 
 class Categoria extends StatefulWidget {
   @override
@@ -30,10 +31,10 @@ class ListState extends State<Categoria> {
 
   String token = "";
   List<Genero> listag=[];
-  List<String> bol;
+  List<String> bol=[];
   bool x=false;
 
-  SharedPreferences sharedPreferences;
+
 
   List<bool> inputs = new List<bool>();
 
@@ -43,13 +44,16 @@ class ListState extends State<Categoria> {
     var valbol = "";
     var cont = 0;
 
-    return new Scaffold(
+    return MaterialApp(
+      home: Scaffold(
         appBar: AppBar(
           title: Text("Categorias Favoritas"),
           backgroundColor: Colors.teal,
         ),
-        bottomNavigationBar: BottomAppBar(
-            color: Colors.deepOrange,
+        bottomNavigationBar: Container(
+          height: 55.0,
+          child: BottomAppBar(
+            color: Colors.teal,
             child: Row(
               children: <Widget>[
 
@@ -82,7 +86,6 @@ class ListState extends State<Categoria> {
                       sharedPreferences = await SharedPreferences.getInstance();
                       sharedPreferences.setString("categorias", cate);
                       sharedPreferences.setString("catebool", valbol);
-                      //sharedPreferences.commit();
                       print("Seleccionado " + valbol);
                       Navigator.push(
                           context,
@@ -92,9 +95,9 @@ class ListState extends State<Categoria> {
 
                     },
                     padding: EdgeInsets.all(4),
-                    color: Color.fromRGBO(1, 1, 1, 0),
+                    color: Colors.teal,
                     child:
-                        Text('Guardar', style: TextStyle(color: Colors.white,fontSize: 18)),
+                    Text('Guardar', style: TextStyle(color: Colors.white,fontSize: 18)),
                   ),
                 ),
 
@@ -109,27 +112,25 @@ class ListState extends State<Categoria> {
                           context,
                           MaterialPageRoute(
                               builder: (BuildContext context) =>
-                                  new DashBoard()));
+                              new DashBoard()));
                     },
                     padding: EdgeInsets.all(3),
-                    color: Color.fromRGBO(1, 1, 1, 0),
+                    color: Colors.teal,
                     child:
-                        Text('Omitir', style: TextStyle(color: Colors.white,fontSize: 18)),
+                    Text('Omitir', style: TextStyle(color: Colors.white,fontSize: 18)),
                   ),
                 ),
               ],
             ),
           ),
-
-        body: Column(children: <Widget>[new ListView.builder(
-          itemCount: listag.length,
-          scrollDirection: Axis.vertical,
-          shrinkWrap: true,
+        ),
+        body: new ListView.builder(
+          itemCount: listag==null?0:listag.length,
           itemBuilder: (BuildContext context, int index) {
             return new Card(
-              child: Container(
-                padding: EdgeInsets.all(10.0),
-                child: Column(
+              child: new Container(
+                padding: new EdgeInsets.all(10.0),
+                child: new Column(
                   children: <Widget>[
                     new CheckboxListTile(
                         activeColor: Colors.teal,
@@ -144,17 +145,17 @@ class ListState extends State<Categoria> {
               ),
             );
           },
-        ),],)
-
+        ),
+      ),
     );
   }
 
   Future<String> getData() async {
 
-
+    //192.168.43.14      192.168.100.58
     http.Response response = await http.get(
         Uri.encodeFull(
-            sharedPreferences.getString("ip")+":5000/ws/listar_generos"),
+            "http://192.168.43.14:5000/ws/listar_generos"),
         headers: {"Accept": "application/json"});
     if (response.statusCode == 200) {
       var data = json.decode(response.body);
@@ -163,11 +164,12 @@ class ListState extends State<Categoria> {
       listag = rest.map<Genero>((json) => Genero.fromJSON(json)).toList();
     }
     setState(() {
+      //sharedPreferences.setString("catebool", "");
       bol = sharedPreferences.getString("catebool").split(".");
-      for (int i = 0; i < listag.length; i++) {
+      for (int h = 0; h < listag.length; h++) {
         x = false;
         for(int j = 1; j < bol.length; j ++){
-            if(i.toString()==bol[j]){
+            if(h.toString()==bol[j]){
               x = true;
             }else{
 
@@ -179,6 +181,7 @@ class ListState extends State<Categoria> {
   }
 
   Future<String> insTopic(String topico) async {
+    
     sharedPreferences = await SharedPreferences.getInstance();
 
     http.Response response = await http.post(
@@ -194,6 +197,7 @@ class ListState extends State<Categoria> {
   }
 
   Future<String> delTopic(String topico) async {
+    
     sharedPreferences = await SharedPreferences.getInstance();
 
     http.Response response = await http.delete(
@@ -211,7 +215,7 @@ class ListState extends State<Categoria> {
   @override
   void initState() {
     // TODO: implement initState
-    getData();
+
     super.initState();
 
 
@@ -240,7 +244,7 @@ class ListState extends State<Categoria> {
     firebaseMessaging.getToken().then((token) {
       update(token);
     });
-
+    getData();
   }
 
   showNotification(Map<String, dynamic> msg) async {
